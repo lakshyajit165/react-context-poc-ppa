@@ -25,10 +25,10 @@ export function GlobalContextProvider({ children }) {
     }
 
     // we can add multiple useEffects(as per requirement)
-    useEffect(() => {
-        loadData();
+    // useEffect(() => {
+    //     loadData();
 
-    }, [])
+    // }, [])
 
     const value = {
         posts,
